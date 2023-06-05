@@ -16,4 +16,9 @@ public class Brand {
     {
         System.out.println(info);
     }
+
+    public void updateCarTitile(String title)
+    {
+        car.setTitle(title);
+    }
 }

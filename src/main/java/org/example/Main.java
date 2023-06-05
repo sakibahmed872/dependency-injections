@@ -7,6 +7,7 @@ public class Main {
         Car car     = new Car("One of us");
         Brand brand = new Brand(car);
 
+        brand.updateCarTitile("Sheer Driving Pleasure");
         brand.printInfo(car.getTitle());
     }
 }
